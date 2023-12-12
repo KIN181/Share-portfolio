@@ -11,7 +11,8 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "heroku/heroku-buildpack-php": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -54,6 +55,10 @@
         }
     },
     "config": {
+        "platform": {
+            "php": "7.4.16"
+        },
+        "document-root": "/public",
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
