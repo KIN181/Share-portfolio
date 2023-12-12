@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dc3936d5168139e11794368d663fd21",
+    "content-hash": "ede4698417eafb3abf359c9318d85b9a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1028,51 +1028,6 @@
                 }
             ],
             "time": "2023-12-03T20:05:35+00:00"
-        },
-        {
-            "name": "heroku/heroku-buildpack-php",
-            "version": "v231",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "5c628e7e989e9d96d742bea67f3245bebe5fc7be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/5c628e7e989e9d96d742bea67f3245bebe5fc7be",
-                "reference": "5c628e7e989e9d96d742bea67f3245bebe5fc7be",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/heroku-php-apache2",
-                "bin/heroku-php-nginx"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Zuelke",
-                    "email": "dz@heroku.com"
-                }
-            ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
-            "homepage": "https://github.com/heroku/heroku-buildpack-php",
-            "keywords": [
-                "apache",
-                "apache2",
-                "foreman",
-                "heroku",
-                "nginx",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
-                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v231"
-            },
-            "time": "2023-02-14T21:03:27+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6118,6 +6073,51 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v231",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "5c628e7e989e9d96d742bea67f3245bebe5fc7be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/5c628e7e989e9d96d742bea67f3245bebe5fc7be",
+                "reference": "5c628e7e989e9d96d742bea67f3245bebe5fc7be",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v231"
+            },
+            "time": "2023-02-14T21:03:27+00:00"
         },
         {
             "name": "laravel/sail",
