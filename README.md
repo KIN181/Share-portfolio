@@ -1,6 +1,6 @@
 <h1>Shareポートフォリオについて<h1/><br>
 <h2>サイトURL：https://desolate-retreat-57917-d0bdf62fb8ad.herokuapp.com/<h2/><br />
-<h3>オーナー ・Email Address:kanamoritakatoshi@gmail.com　　・パスワード　　１２３４５６７８
+<h3>オーナー ・Email Address:kanamoritakatoshi@gmail.com　　・パスワード　１２３４５６７８
 <h3/>  
 <p>    
 ライフスタイルを共有してユーザーがお互いにコニュニケーションを手軽に撮ることができるアプリケーション<br />
